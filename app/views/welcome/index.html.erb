@@ -1,0 +1,59 @@
+<div class="col-md-12 banner">
+  <%= image_tag("sarah_and_andy.jpg", class: "banner_image") %>
+</div>
+<div class="col-md-12 text-center">
+  <h1>Sarah and Andy's Wedding</h1>
+  <h2>Sunday September 3, 2017</h2>
+</div>
+
+<div class="row">
+  <%= link_to story_path do %>
+    <div class="col-md-4">
+      <%= image_tag("sarah_and_andy_2.jpg", class: "image") %>
+      <h3> Learn the Story Behind the Couple </h3>
+      <p> Who asked whom out? How many dates before their first kiss? </p>
+    </div>
+  <% end %>
+
+  <%= link_to location_path do %>
+    <div class="col-md-4">
+      <%= image_tag("location.jpg", class: "image") %>
+      <h3> Wedding Details </h3>
+      <p> The dress code is formal rodeo </p>
+    </div>
+  <% end %>
+
+  <%= link_to registry_path do %>
+    <div class="col-md-4">
+      <%= image_tag("registry.jpg", class: "image") %>
+      <h3> Wedding Registry </h3>
+      <p> Will you buy Andy a Virtual Reality headset or make Sarah's cheese knife collection an even 50?<p>
+    </div>
+  <% end %>
+</div>
+<div class="row">
+
+  <%= link_to party_path do %>
+    <div class="col-md-4">
+      <%= image_tag("wedding_party.png", class: "image") %>
+      <h3> Where the Party at? </h3>
+      <p> When you make the website, you get to choose what picture to feature </p>
+    </div>
+  <% end %>
+
+  <%= link_to accomodations_path do %>
+    <div class="col-md-4">
+      <%= image_tag("accomodations.jpg", class: "image") %>
+      <h3> Where to Stay? </h3>
+      <p> Spend a night with the local black bears </p>
+    </div>
+  <% end %>
+
+  <%= link_to itinerary_path do %>
+    <div class="col-md-4">
+      <%= image_tag("sarah_and_andy.jpg", class: "image") %>
+      <h3> What to do? </h3>
+      <p> A sample itinerary </p>
+    </div>
+  <% end %>
+</div>

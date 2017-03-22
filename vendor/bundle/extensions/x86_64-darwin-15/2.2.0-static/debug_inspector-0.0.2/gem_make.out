@@ -1,0 +1,15 @@
+current directory: /Users/adam.mandeville/weddingwebsite/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/adam.mandeville/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20170322-89611-zhf3rv.rb extconf.rb
+creating Makefile
+
+current directory: /Users/adam.mandeville/weddingwebsite/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/adam.mandeville/weddingwebsite/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/adam.mandeville/weddingwebsite/vendor/bundle/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20170322-89611-1fibqfm

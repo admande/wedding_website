@@ -1,0 +1,16 @@
+current directory: /Users/adam.mandeville/weddingwebsite/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/Users/adam.mandeville/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20170322-89611-w13y9x.rb extconf.rb
+
+current directory: /Users/adam.mandeville/weddingwebsite/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/adam.mandeville/weddingwebsite/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/adam.mandeville/weddingwebsite/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.
