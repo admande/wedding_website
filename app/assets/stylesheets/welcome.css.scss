@@ -4,9 +4,18 @@
   padding-right: 3em;
 }
 
-.banner {
+#banner {
+  background: image-url("sarah_and_andy.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px -100px ;
+  background-size: cover;
+  height: 360px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  h1, h2 {
+    color: #ffffff;
+  }
 }
 
 img {
@@ -38,4 +47,55 @@ p {
 
 .links {
   font-size: 1.5em;
+}
+
+#party_card {
+  background: image-url('wedding_party.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#accomodations_card {
+  background: image-url('accomodations.jpg');
+  background-size: cover;
+}
+
+#itinerary_card {
+  background: image-url('sarah_and_andy.jpg');
+  background-size: cover;
+}
+
+#registry_card {
+  background: image-url('registry.jpg');
+  background-size: cover;
+}
+
+#location_card {
+  background: image-url('location.jpg');
+  background-size: cover;
+}
+
+#story_card {
+  background: image-url('sarah_and_andy_2.jpg');
+  background-size: cover;
+}
+
+.card {
+  border-radius: 5px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin-top: 10px;
+  .ribbon {
+    background-color: rgba(20, 0, 20, 0.5);
+    width: 100%
+  }
+  h3 {
+    color: #ffffff;
+    opacity: 1.0;
+  }
+  p {
+  }
 }
