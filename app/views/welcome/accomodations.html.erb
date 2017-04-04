@@ -1,6 +1,23 @@
 <div class="text-center">
   <h1>Accomodations</h1>
   <div class="row">
+    <%= link_to "https://jacksonhouse.com/", target: "blank" do %>
+      <div class="col-md-4">
+        <div class="card text-center" id="jackson_card">
+          <div class="ribbon">
+            <h3> The Jackson House Inn </h3>
+          </div>
+        </div>
+        <p class="accomodation_description">
+          "Located just outside the heart of Woodstock, Vermont,
+          The Jackson House Inn provides a peaceful alternative to the vibrant village streets."
+          Cause we all know how rowdy things are in Vermont.
+        </p>
+        <p class="accomodation_description">
+          Suites from $259, less fancy rooms from $209.
+        <p>
+      </div>
+    <% end %>
 
     <%= link_to "http://shirewoodstock.com/", target: "blank" do %>
       <div class="col-md-4">
@@ -41,6 +58,9 @@
       </div>
     <% end %>
 
+  </div>
+
+  <div class="row">
     <%= link_to "http://vtstateparks.com/quechee.html", target: "blank" do %>
       <div class="col-md-4">
         <div class="card text-center" id="quechee_card">
