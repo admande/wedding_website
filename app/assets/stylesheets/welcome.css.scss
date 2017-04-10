@@ -198,6 +198,36 @@ p {
   background-size: cover;
 }
 
+#redrooster_card {
+  background: image-url('redrooster.jpg');
+  background-size: cover;
+}
+
+#longtrail_card {
+  background: image-url('longtrail.jpg');
+  background-size: cover;
+}
+
+#max_card {
+  background: image-url('max.jpg');
+  background-size: cover;
+}
+
+#downtown_card {
+  background: image-url('downtown.jpg');
+  background-size: cover;
+}
+
+#cloudland_card {
+  background: image-url('cloudland.jpg');
+  background-size: cover;
+}
+
+#worthy_card {
+  background: image-url('worthy.jpg');
+  background-size: cover;
+}
+
 .card {
   border-radius: 5px;
   height: 360px;
@@ -216,7 +246,7 @@ p {
     bottom: 0;
     left: 0;
   }
-  h3 {
+  h3, h4 {
     color: #ffffff;
     opacity: 1.0;
   }
