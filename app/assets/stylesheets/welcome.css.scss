@@ -45,7 +45,13 @@ p {
 
 #party_card {
   background: image-url('wedding_party.png');
-  background-position: center;
+  background-position: 90% 50%;
+  background-size: cover;
+}
+
+#center_card {
+  background: image-url('center.jpg');
+  background-position: 95% 50%;
   background-size: cover;
 }
 
