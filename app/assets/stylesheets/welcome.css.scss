@@ -3,7 +3,10 @@
   background-repeat: no-repeat;
   background-position: 0px -100px ;
   background-size: cover;
-  height: 360px;
+  height: 500px;
+  max-width: 1250px;
+  margin-left: auto ;
+  margin-right: auto ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +14,9 @@
     color: #ffffff;
   }
 }
+
+.centering P
+
 
 a {
   color: #5d5e56;
@@ -228,6 +234,7 @@ p {
   background-size: cover;
 }
 
+
 .card {
   border-radius: 5px;
   height: 360px;
@@ -237,7 +244,7 @@ p {
   flex-flow: wrap;
   margin-top: 2em;
   position: relative;
-  .ribbon, .bottom_ribbon {
+  .ribbon {
     background-color: rgba(20, 0, 20, 0.5);
     width: 100%;
   }
@@ -245,6 +252,12 @@ p {
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 100%;}
+  .andy {
+    background-color: rgba(255,0,0,0.3);
+  }
+  .sarah {
+    background-color: rgba(0,0,255,0.3);
   }
   h3, h4 {
     color: #ffffff;
