@@ -125,6 +125,11 @@ p {
   background-size: cover;
 }
 
+#keepers_card {
+  background: image-url('keepers.png');
+  background-size: cover;
+}
+
 #barnard_card {
   background: image-url('barnard.jpg');
   background-size: cover;
@@ -274,6 +279,6 @@ p {
 }
 
 .accomodation_description {
-  font-size: 1.0em;
+  font-size: 1.25em;
   line-height: 1.25em;
 }
