@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get 'activities' => 'welcome#activities', as: "activities"
   get 'venue' => 'welcome#venue', as: "venue"
   get 'restaurants' => 'welcome#restaurants', as: "restaurants"
+  get 'faqs' => 'welcome#faqs', as: "faqs"
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

@@ -55,10 +55,15 @@
     </div>
   <% end %>
 
-  <div class="col-md-4">
-    <div class="card text-center" id="center_card">
+  <%= link_to faqs_path do %>
+    <div class="col-md-4">
+      <div class="card text-center" id="center_card">
+        <div class="ribbon">
+          <h3> FAQs </h3>
+        </div>
+      </div>
     </div>
-  </div>
+  <% end %>
 
   <%= link_to accomodations_path do %>
     <div class="col-md-4">
