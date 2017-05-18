@@ -268,11 +268,30 @@ p {
   }
 }
 
+.home_card {
+  @extend .card;
+  height: 400px;
+  margin-top: 2em;
+}
+
+.accomodation_card {
+  @extend .card;
+  height: 600px;
+  margin-top: 2em;
+}
+
 .accomodation_description {
   font-size: 1.25em;
   line-height: 1.25em;
 }
 
-#footer {
+.activity_description {
+  font-size: 1.25em;
+  line-height: 1.25em;
+  color: #ffffff;
+}
+
+.footer {
   font-size: 2em;
+  margin-top: 10px;
 }
