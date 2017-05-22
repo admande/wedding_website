@@ -1,4 +1,6 @@
-<div class="col-sm-12 footer text-center">
-  <%= image_tag 'decoration.jpg', width: '100px' %>
-  <p id="footer"><%= link_to "Return to Home", root_path %></p>
-</div>
+<% unless @home_flag %>
+  <div class="col-sm-12 footer text-center">
+    <%= image_tag 'decoration.jpg', width: '100px' %>
+    <p id="footer"><%= link_to "Return to Home", root_path %></p>
+  </div>
+<% end %>
