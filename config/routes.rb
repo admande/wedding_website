@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   # Example of regular route:
   get 'story' => 'welcome#story', as: "story"
+  get 'alternate_story' => 'welcome#alternate_story', as: "alternate_story"
   get 'location' => 'welcome#location', as: "location"
   get 'accomodations' => 'welcome#accomodations', as: "accomodations"
   get 'registry' => 'welcome#registry', as: "registry"
