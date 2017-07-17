@@ -1,8 +1,8 @@
 <div class="text-center">
   <h1>Accomodations</h1>
   <div class="row">
-    <%= link_to "https://jacksonhouse.com/", target: "blank", class: "link_card", class: "link_card" do %>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
+        <%= link_to "https://jacksonhouse.com/", target: "blank", class: "link_card", class: "link_card" do %>
         <div class="accomodation_card text-center" id="jackson_card">
           <div class="ribbon">
             <h3> The Jackson House Inn </h3>
@@ -16,11 +16,11 @@
         <p class="accomodation_description">
           Suites from $259, less fancy rooms from $209.
         <p>
+          <% end %>
       </div>
-    <% end %>
 
-    <%= link_to "http://shirewoodstock.com/", target: "blank", class: "link_card" do %>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
+        <%= link_to "http://shirewoodstock.com/", target: "blank", class: "link_card" do %>
         <div class="accomodation_card text-center" id="shire_card">
           <div class="ribbon">
             <h3> The Shire </h3>
@@ -37,11 +37,11 @@
         <p class="accomodation_description">
           Minimum Stay: 2 nights
         </p>
+        <% end %>
       </div>
-    <% end %>
 
-    <%= link_to "https://www.choicehotels.com/vermont/quechee/quality-inn-hotels/vt014", target: "blank", class: "link_card" do %>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
+        <%= link_to "https://www.choicehotels.com/vermont/quechee/quality-inn-hotels/vt014", target: "blank", class: "link_card" do %>
         <div class="accomodation_card text-center" id="quality_card">
           <div class="ribbon">
             <h3> Quality Inn </h3>
@@ -55,14 +55,11 @@
         <p class="accomodation_description">
           $125 for double, $118 for king room (Goodell-Gesior block). Hard 3pm check-in rule
         <p>
+          <% end %>
       </div>
-    <% end %>
 
-  </div>
-
-  <div class="row">
-    <%= link_to "http://vtstateparks.com/quechee.html", target: "blank", class: "link_card" do %>
-      <div class="col-md-4 col-md-offset-4">
+      <div class="col-md-4 col-md-offset-4 col-sm-6">
+        <%= link_to "http://vtstateparks.com/quechee.html", target: "blank", class: "link_card" do %>
         <div class="accomodation_card text-center" id="quechee_card">
           <div class="ribbon">
             <h3> Quechee State Park </h3>
@@ -75,7 +72,7 @@
         <p class="accomodation_description">
           Minimum Stay: 2 nights
         </p>
+        <% end %>
       </div>
-    <% end %>
   </div>
 </div>

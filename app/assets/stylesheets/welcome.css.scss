@@ -279,7 +279,8 @@ p {
 
 
 .card {
-  border-radius: 5px;
+  border-radius: none;
+  border: 1px solid white;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -319,6 +320,19 @@ p {
   &:hover {
     text-decoration: none;
   }
+}
+
+.carousel {
+  display: inline-block;
+}
+
+.header {
+  padding-top: 2em;
+}
+
+.photos-carousel {
+  background-color: rgba(255, 150, 130, 0.1);
+  padding: 1em;
 }
 
 .accomodation_description {
